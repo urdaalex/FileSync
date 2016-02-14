@@ -10,5 +10,6 @@ FileSync.exe /s=<source> /d=<destination> [/l=<logfile>] [-v]
 
 ##Future Work
 - Create a GUI
+- Asynchronous logging support
 - Perform testing on different threading options
 - Better error-handling
