@@ -51,4 +51,4 @@ Traversal of the source side files and folders is accomplished asynchronously us
 - Splitting work among an individual folder (see below)
 
 ##Limitations
-Currently, a new task for the thread pool is created when a thread encounters another directory. This means that a directory with a large amount of files will be worked on by only one thread. It is possible to partition files in an individual folder among different threads to improve parallelism.
+Currently, a new task is created for the thread pool when a thread encounters another directory. This means that a directory with a large amount of files will be worked on by only one thread. It is possible to partition files in an individual folder among different threads to improve parallelism.
